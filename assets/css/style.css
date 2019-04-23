@@ -145,18 +145,18 @@ h3 span {
 
  /* MEDIA SCREEN QUERIES FOR MOBILE RESPONSIVENESS */
  @media screen and (max-width: 980px) {
-    .header {
+    /* .header {
         background-color: olive;
-    }
+    } */
     .linksAreaSmall {
         display: none ;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .header {  
+    /* .header {  
         background-color: orange;
-    }
+    } */
     .linksAreaSmall {
         display: none ;
     }
@@ -164,7 +164,7 @@ h3 span {
 
   @media screen and (max-width: 640px) {
     .header {
-        background-color: red;
+        /* background-color: red; */
         position: absolute;
     }
     .linksArea {
@@ -172,8 +172,10 @@ h3 span {
     }
     .linksAreaSmall {
 
-        background-color: blue;
-        display: flex ; 
+        background-color: #ffffff;
+        position: absolute;
+        display: block ; 
+        padding : .5em .5em;
         align-items: center;
     }
 
