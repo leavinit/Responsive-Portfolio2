@@ -85,12 +85,14 @@ h1 {
     line-height: 1.5em ;
     
 }
-
+/* .mainContent img{
+    border: 1px solid  rgb(190, 190, 190); 
+} */
 
 
 form, textarea, .tbox {
     width: 70% ;
-    padding-left: 4%; 
+    padding-left: 8%; 
 
 
 }
@@ -104,25 +106,23 @@ form, textarea, .tbox {
     padding-bottom: 20px;
 }
 .pics img {
+    
     padding: 20px 30px ;
-    
-    
 }
 
 .picwrap {
-
     position: relative; 
-    
 }
 
 .picwrap h3 {
     position: absolute;
     top: 0; 
-
+    border: 1px solid  rgb(190, 190, 190); 
     margin-left: 3em;
     margin-top: 8em;
     width: 80%; 
     background-color: #4aaaa5 ;
+
  
 }
 
