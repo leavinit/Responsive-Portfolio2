@@ -86,15 +86,16 @@ h1 {
     
 }
 
-form, input {
-    width: 90% ;
-    height: 1.5em ;
-    padding-left: 2em;
-}
 
-textarea {
-    width: 93% ;
-    
+
+form, textarea, .tbox {
+    width: 70% ;
+    padding-left: 4%; 
+
+
+}
+.tbox {
+    height: 1.5em;
 }
 
 .pics {
@@ -117,6 +118,7 @@ textarea {
 .picwrap h3 {
     position: absolute;
     top: 0; 
+
     margin-left: 3em;
     margin-top: 8em;
     width: 80%; 
@@ -152,21 +154,14 @@ h3 span {
 
  /* MEDIA SCREEN QUERIES FOR MOBILE RESPONSIVENESS */
  @media screen and (max-width: 980px) {
-    /* .header {
-        background-color: olive;
-    } */
+
     .linksAreaSmall {
         display: none ;
     }
   }
 
   @media screen and (max-width: 768px) {
-    /* .header {  
-        background-color: orange;
-    } */
-    /* .titleBox {
-        width: 100%;
-    } */
+
     .linksAreaSmall {
         display: none ;
     }
@@ -179,7 +174,6 @@ h3 span {
 
   @media screen and (max-width: 640px) {
     .header {
-        /* background-color: red; */
         position: absolute;
     }
     .nameArea {
@@ -190,7 +184,6 @@ h3 span {
         display: none;
     }
     .linksAreaSmall {
-
         background-color: #ffffff;
         position: absolute;
         display: block ; 
@@ -217,8 +210,9 @@ h3 span {
     }
     .picwrap h3 {
         margin-top: 7em;
-        margin-left: 2em;
-        width: 70%;
+        margin-left: 2.3em;
+        width: 65%;
+        font-size: .9em;
     }
 
   }
