@@ -190,4 +190,15 @@ h3 span {
     .mainContent {
         width: 100%;
     }
+    /* .pics {
+        width: 70%;
+    } */
+    .pics img {
+        width: 70%;
+    }
+    .picwrap h3 {
+        margin-top: 7em;
+        margin-left: 2em;
+        width: 70%;
+    }
   }
