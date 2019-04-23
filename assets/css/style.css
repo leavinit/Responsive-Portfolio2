@@ -175,6 +175,7 @@ h3 span {
         background-color: #ffffff;
         position: absolute;
         display: block ; 
+        width: 100%;
         padding : .5em .5em;
         align-items: center;
     }
@@ -185,5 +186,8 @@ h3 span {
         color: #777777;
         text-decoration: none ;
         
+    }
+    .mainContent {
+        width: 100%;
     }
   }
