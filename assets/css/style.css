@@ -111,6 +111,7 @@ form, textarea, .tbox {
 }
 
 .picwrap {
+    z-index: 3;
     position: relative; 
 }
 
