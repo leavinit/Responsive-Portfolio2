@@ -111,7 +111,8 @@ form, textarea, .tbox {
 }
 
 .picwrap {
-    position: relative; 
+    position: relative;
+     
 }
 
 .picwrap h3 {
@@ -122,7 +123,6 @@ form, textarea, .tbox {
     margin-top: 8em;
     width: 80%; 
     background-color: #4aaaa5 ;
-
  
 }
 
@@ -131,6 +131,8 @@ h3 span {
     color: white; 
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px; 
+    z-index: 10000;
+
  }
 
 
