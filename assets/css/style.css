@@ -5,6 +5,16 @@ html, body {
 
 }
 
+
+a:active {
+    color : #777777;
+    z-index: 25000;
+}
+a:visited{
+    color : #777777;
+    z-index: 25000;
+}
+
 body {
     padding-top: 7em ;
     padding-bottom: 2em;
